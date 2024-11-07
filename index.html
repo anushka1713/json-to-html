@@ -2,24 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Test JSON to HTML</title>
-    <script type="module">
-        import json2html from './json2html.js';
-
-        // Sample data
-        const data = [
-            { Name: "Alice", Age: 25 },
-            { Name: "Bob", Age: 30 },
-            { Name: "Charlie", Age: 35, Gender: "M" }
-        ];
-
-        // Generate HTML table and add to the page
-        document.addEventListener("DOMContentLoaded", () => {
-            const htmlTable = json2html(data);
-            document.body.innerHTML = htmlTable;
-        });
-    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON to HTML Module</title>
 </head>
 <body>
+    <script type="module" src="json2html.js"></script>
 </body>
 </html>
